@@ -68,9 +68,5 @@ func (i *Introspector) get(path string, responseHolder interface{}) error {
 	}
 
 	jsonErr := json.Unmarshal(body, responseHolder)
-	if jsonErr != nil {
-		return jsonErr
-	}
-
-	return nil
+	return jsonErr
 }
