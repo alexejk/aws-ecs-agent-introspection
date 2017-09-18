@@ -1,4 +1,8 @@
 # AWS ECS Agent Introspection Client
+
+[![Build Status](https://travis-ci.org/alexejk/aws-ecs-agent-introspection.svg?branch=master)](https://travis-ci.org/alexejk/aws-ecs-agent-introspection)
+[![GoDoc](https://godoc.org/github.com/alexejk/aws-ecs-agent-introspection?status.svg)](https://godoc.org/github.com/alexejk/aws-ecs-agent-introspection)
+
 A simple Golang client for accessing ECS Introspection APIs.  
 AWS Documentation: [ECS Container Agent Introspection](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-agent-introspection.html) 
 
