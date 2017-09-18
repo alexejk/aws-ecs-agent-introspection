@@ -44,8 +44,8 @@ func TestIntrospector_GetTaskByDockerID(t *testing.T) {
 	ts, api := testServerAndClient(t, "task.json")
 	defer ts.Close()
 
-	dockerId := "79c796ed2a"
-	task, err := api.GetTaskByDockerID(dockerId)
+	dockerID := "79c796ed2a"
+	task, err := api.GetTaskByDockerID(dockerID)
 
 	assert.NoError(t, err)
 	//assert.Equal(t, dockerId, *task.)
@@ -53,7 +53,7 @@ func TestIntrospector_GetTaskByDockerID(t *testing.T) {
 	found := false
 
 	for _, c := range task.Containers {
-		if strings.HasPrefix(*c.DockerID, dockerId) {
+		if strings.HasPrefix(*c.DockerID, dockerID) {
 			found = true
 			break
 		}

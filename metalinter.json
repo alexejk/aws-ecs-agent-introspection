@@ -2,17 +2,18 @@
   "Vendor": true,
   "EnableGC": false,
   "Aggregate": true,
-  "Deadline": 120000000000,
+  "Deadline": 12000000000,
   "Sort": [
     "linter",
     "severity",
     "path"
   ],
   "Exclude": [
-    ".*\\.pb\\.go"
+    "_test.go"
   ],
   "Skip": [
-    "proto/"
+      "testData/",
+      "vendor/"
   ],
   "Enable": [
     "deadcode",
