@@ -1,9 +1,4 @@
-
-all: deps build test lint
-
-deps:
-	@echo "Installing dependencies"
-	@glide install
+all: build test lint
 
 test:
 	@echo "Running tests.."
