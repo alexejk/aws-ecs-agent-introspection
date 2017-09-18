@@ -1,0 +1,10 @@
+package: github.com/alexejk/aws-ecs-agent-introspection
+license: MIT
+owners:
+- name: Alexej Kubarev
+  email: alexej.kubarev@accedo.tv
+
+testImport:
+- package: github.com/stretchr/testify/assert
+  version: master
+  vcs: git

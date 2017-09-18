@@ -1,0 +1,31 @@
+{
+  "Vendor": true,
+  "EnableGC": false,
+  "Aggregate": true,
+  "Deadline": 120000000000,
+  "Sort": [
+    "linter",
+    "severity",
+    "path"
+  ],
+  "Exclude": [
+    ".*\\.pb\\.go"
+  ],
+  "Skip": [
+    "proto/"
+  ],
+  "Enable": [
+    "deadcode",
+    "gofmt",
+    "goimports",
+    "golint",
+    "gosimple",
+    "ineffassign",
+    "interfacer",
+    "unconvert",
+    "unused",
+    "errcheck",
+    "vet"
+  ],
+  "LineLength": 200
+}

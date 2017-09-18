@@ -1,0 +1,14 @@
+{
+  "Arn": "arn:aws:ecs:us-east-1:123456789012:task/e01d58a8-151b-40e8-bc01-22647b9ecfec",
+  "Containers": [
+    {
+      "DockerId": "79c796ed2a7f864f485c76f83f3165488097279d296a7c05bd5201a1c69b2920",
+      "DockerName": "ecs-nginx-efs-2-nginx-9ac0808dd0afa495f001",
+      "Name": "nginx"
+    }
+  ],
+  "DesiredStatus": "RUNNING",
+  "Family": "nginx-efs",
+  "KnownStatus": "RUNNING",
+  "Version": "2"
+}
